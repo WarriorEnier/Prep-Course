@@ -34,6 +34,7 @@ function sumarArray(numeros, cb) {
   //Con reduce
   /* suma = numeros.reduce((a,b) => a+b); */
   //Con forEach
+  
   numeros.forEach(elem =>{
     suma+=elem;
   });
